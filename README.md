@@ -1,5 +1,14 @@
 # Master's thesis
 #### Anton & Yinggang
-This code is a part of our master's thesis project at DTU in the spring of 2022.
+This repository is a part of our master's thesis project at DTU in the spring of 2022.
+The following items will be available:
 
-This is were we will store our project's scripts, notebooks, use cases and more
+* Code
+* Scripts / Notebooks
+* Applications
+* Use cases
+* Thesis
+
+For further information, please contact us:
+Anton - antonarnarsson@gmail.com
+Yinggang - 
