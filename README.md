@@ -11,4 +11,4 @@ The following items will be available:
 
 For further information, please contact us:\
 Anton Freyr Arnarsson - antonarnarsson@gmail.com\
-Yinggang Mi - 
+Yinggang Mi - mick.miyg@gmail.com
