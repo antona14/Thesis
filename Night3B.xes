@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="1" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-02T22:00:00" />
+			<date key="time:timestamp" value="2022-01-02T22:45:49.800000" />
+			<float key="Duration" value="45.83" />
+		</event>
+		<event>
+			<int key="index" value="3" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-02T22:53:43.800000" />
+			<date key="time:timestamp" value="2022-01-03T00:35:36.600000" />
+			<float key="Duration" value="101.88" />
+		</event>
+		<event>
+			<int key="index" value="5" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-03T00:39:12.600000" />
+			<date key="time:timestamp" value="2022-01-03T04:03:02.400000" />
+			<float key="Duration" value="203.83" />
+		</event>
+		<event>
+			<int key="index" value="14" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-03T04:08:14.400000" />
+			<date key="time:timestamp" value="2022-01-03T04:32:36.600000" />
+			<float key="Duration" value="24.37" />
+		</event>
+		<event>
+			<int key="index" value="16" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-03T04:39:16.800000" />
+			<date key="time:timestamp" value="2022-01-03T05:19:09" />
+			<float key="Duration" value="39.87" />
+		</event>
+		<event>
+			<int key="index" value="18" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-03T05:20:38.400000" />
+			<date key="time:timestamp" value="2022-01-03T06:14:16.200000" />
+			<float key="Duration" value="53.63" />
+		</event>
+		<event>
+			<int key="index" value="20" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-03T06:18:13.200000" />
+			<date key="time:timestamp" value="2022-01-03T06:29:27.600000" />
+			<float key="Duration" value="11.239999999999998" />
+		</event>
+		<event>
+			<int key="index" value="24" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-03T06:34:13.800000" />
+			<date key="time:timestamp" value="2022-01-03T08:17:18.600000" />
+			<float key="Duration" value="103.08" />
+		</event>
+		<event>
+			<int key="index" value="26" />
+			<string key="concept:name" value="wake up" />
+			<date key="start_time" value="2022-01-03T08:23:40.200000" />
+			<date key="time:timestamp" value="2022-01-03T08:25:54.600000" />
+			<float key="Duration" value="2.24" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2" />
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-03T22:08:43.200000" />
+			<date key="time:timestamp" value="2022-01-04T06:52:38.400000" />
+			<float key="Duration" value="523.92" />
+		</event>
+		<event>
+			<int key="index" value="9" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-04T06:56:36" />
+			<date key="time:timestamp" value="2022-01-04T07:15:43.200000" />
+			<float key="Duration" value="19.12" />
+		</event>
+		<event>
+			<int key="index" value="11" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-04T07:22:42.600000" />
+			<date key="time:timestamp" value="2022-01-04T08:29:50.400000" />
+			<float key="Duration" value="67.13" />
+		</event>
+		<event>
+			<int key="index" value="13" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-04T08:36:36" />
+			<date key="time:timestamp" value="2022-01-04T09:04:33.600000" />
+			<float key="Duration" value="27.96" />
+		</event>
+		<event>
+			<int key="index" value="15" />
+			<string key="concept:name" value="wake up" />
+			<date key="start_time" value="2022-01-04T09:13:06" />
+			<date key="time:timestamp" value="2022-01-04T09:17:19.800000" />
+			<float key="Duration" value="4.23" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-04T22:00:00" />
+			<date key="time:timestamp" value="2022-01-05T00:59:53.400000" />
+			<float key="Duration" value="179.89" />
+		</event>
+		<event>
+			<int key="index" value="4" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-05T01:06:39.600000" />
+			<date key="time:timestamp" value="2022-01-05T03:08:28.200000" />
+			<float key="Duration" value="121.80999999999999" />
+		</event>
+		<event>
+			<int key="index" value="10" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-05T03:11:16.800000" />
+			<date key="time:timestamp" value="2022-01-05T04:42:49.200000" />
+			<float key="Duration" value="91.54" />
+		</event>
+		<event>
+			<int key="index" value="13" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-05T04:47:33" />
+			<date key="time:timestamp" value="2022-01-05T05:32:03.600000" />
+			<float key="Duration" value="44.51" />
+		</event>
+		<event>
+			<int key="index" value="15" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-05T05:40:10.800000" />
+			<date key="time:timestamp" value="2022-01-05T08:54:34.800000" />
+			<float key="Duration" value="194.39999999999998" />
+		</event>
+		<event>
+			<int key="index" value="18" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-05T08:59:54.600000" />
+			<date key="time:timestamp" value="2022-01-05T10:35:20.400000" />
+			<float key="Duration" value="95.43" />
+		</event>
+		<event>
+			<int key="index" value="24" />
+			<string key="concept:name" value="wake up" />
+			<date key="start_time" value="2022-01-05T10:37:19.200000" />
+			<date key="time:timestamp" value="2022-01-05T10:42:22.800000" />
+			<float key="Duration" value="5.06" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4" />
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-05T22:01:01.800000" />
+			<date key="time:timestamp" value="2022-01-06T00:20:24.600000" />
+			<float key="Duration" value="139.38" />
+		</event>
+		<event>
+			<int key="index" value="4" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-06T00:29:30.600000" />
+			<date key="time:timestamp" value="2022-01-06T00:35:14.400000" />
+			<float key="Duration" value="5.73" />
+		</event>
+		<event>
+			<int key="index" value="6" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-06T00:41:05.400000" />
+			<date key="time:timestamp" value="2022-01-06T04:35:12.600000" />
+			<float key="Duration" value="234.12" />
+		</event>
+		<event>
+			<int key="index" value="11" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-06T04:44:42.600000" />
+			<date key="time:timestamp" value="2022-01-06T05:28:13.200000" />
+			<float key="Duration" value="43.51" />
+		</event>
+		<event>
+			<int key="index" value="13" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-06T05:29:14.400000" />
+			<date key="time:timestamp" value="2022-01-06T05:34:09.600000" />
+			<float key="Duration" value="4.92" />
+		</event>
+		<event>
+			<int key="index" value="15" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-06T05:43:17.400000" />
+			<date key="time:timestamp" value="2022-01-06T07:09:55.800000" />
+			<float key="Duration" value="86.64" />
+		</event>
+		<event>
+			<int key="index" value="21" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-06T07:11:24.600000" />
+			<date key="time:timestamp" value="2022-01-06T08:51:25.200000" />
+			<float key="Duration" value="100.00999999999999" />
+		</event>
+		<event>
+			<int key="index" value="24" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-06T08:52:25.800000" />
+			<date key="time:timestamp" value="2022-01-06T10:32:01.200000" />
+			<float key="Duration" value="99.59" />
+		</event>
+		<event>
+			<int key="index" value="28" />
+			<string key="concept:name" value="wake up" />
+			<date key="start_time" value="2022-01-06T10:40:44.400000" />
+			<date key="time:timestamp" value="2022-01-06T10:48:05.400000" />
+			<float key="Duration" value="7.35" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5" />
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-06T22:08:36.600000" />
+			<date key="time:timestamp" value="2022-01-06T22:49:02.400000" />
+			<float key="Duration" value="40.43" />
+		</event>
+		<event>
+			<int key="index" value="3" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-06T22:58:14.400000" />
+			<date key="time:timestamp" value="2022-01-06T23:07:01.800000" />
+			<float key="Duration" value="8.79" />
+		</event>
+		<event>
+			<int key="index" value="5" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-06T23:12:27" />
+			<date key="time:timestamp" value="2022-01-07T00:57:48.600000" />
+			<float key="Duration" value="105.36" />
+		</event>
+		<event>
+			<int key="index" value="7" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-07T01:00:47.400000" />
+			<date key="time:timestamp" value="2022-01-07T01:21:02.400000" />
+			<float key="Duration" value="20.25" />
+		</event>
+		<event>
+			<int key="index" value="9" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-07T01:28:14.400000" />
+			<date key="time:timestamp" value="2022-01-07T05:00:25.200000" />
+			<float key="Duration" value="212.18" />
+		</event>
+		<event>
+			<int key="index" value="14" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-07T05:03:03.600000" />
+			<date key="time:timestamp" value="2022-01-07T05:29:57.600000" />
+			<float key="Duration" value="26.9" />
+		</event>
+		<event>
+			<int key="index" value="16" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-07T05:38:38.400000" />
+			<date key="time:timestamp" value="2022-01-07T06:17:12.600000" />
+			<float key="Duration" value="38.57" />
+		</event>
+		<event>
+			<int key="index" value="18" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-07T06:20:35.400000" />
+			<date key="time:timestamp" value="2022-01-07T06:24:55.800000" />
+			<float key="Duration" value="4.34" />
+		</event>
+		<event>
+			<int key="index" value="20" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-07T06:32:34.800000" />
+			<date key="time:timestamp" value="2022-01-07T08:14:51" />
+			<float key="Duration" value="102.27" />
+		</event>
+		<event>
+			<int key="index" value="23" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-07T08:16:42.600000" />
+			<date key="time:timestamp" value="2022-01-07T09:33:30" />
+			<float key="Duration" value="76.78999999999999" />
+		</event>
+		<event>
+			<int key="index" value="26" />
+			<string key="concept:name" value="wake up" />
+			<date key="start_time" value="2022-01-07T09:43:08.400000" />
+			<date key="time:timestamp" value="2022-01-07T09:44:18.600000" />
+			<float key="Duration" value="1.17" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="6" />
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-07T22:01:22.800000" />
+			<date key="time:timestamp" value="2022-01-07T23:40:01.200000" />
+			<float key="Duration" value="98.64" />
+		</event>
+		<event>
+			<int key="index" value="4" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-07T23:47:03.600000" />
+			<date key="time:timestamp" value="2022-01-08T00:24:08.400000" />
+			<float key="Duration" value="37.08" />
+		</event>
+		<event>
+			<int key="index" value="6" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-08T00:29:30" />
+			<date key="time:timestamp" value="2022-01-08T01:06:43.200000" />
+			<float key="Duration" value="37.22" />
+		</event>
+		<event>
+			<int key="index" value="8" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-08T01:16:25.200000" />
+			<date key="time:timestamp" value="2022-01-08T02:20:48.600000" />
+			<float key="Duration" value="64.39" />
+		</event>
+		<event>
+			<int key="index" value="11" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-08T02:23:19.800000" />
+			<date key="time:timestamp" value="2022-01-08T03:44:51" />
+			<float key="Duration" value="81.52" />
+		</event>
+		<event>
+			<int key="index" value="13" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-08T03:49:03" />
+			<date key="time:timestamp" value="2022-01-08T05:08:28.200000" />
+			<float key="Duration" value="79.42" />
+		</event>
+		<event>
+			<int key="index" value="16" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-08T05:14:24.600000" />
+			<date key="time:timestamp" value="2022-01-08T05:31:40.200000" />
+			<float key="Duration" value="17.26" />
+		</event>
+		<event>
+			<int key="index" value="18" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-08T05:38:31.200000" />
+			<date key="time:timestamp" value="2022-01-08T06:10:45.600000" />
+			<float key="Duration" value="32.24" />
+		</event>
+		<event>
+			<int key="index" value="20" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-08T06:13:00.600000" />
+			<date key="time:timestamp" value="2022-01-08T06:38:52.800000" />
+			<float key="Duration" value="25.87" />
+		</event>
+		<event>
+			<int key="index" value="23" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-08T06:43:33.600000" />
+			<date key="time:timestamp" value="2022-01-08T07:25:03" />
+			<float key="Duration" value="41.49" />
+		</event>
+		<event>
+			<int key="index" value="25" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-08T07:27:18.600000" />
+			<date key="time:timestamp" value="2022-01-08T09:13:13.200000" />
+			<float key="Duration" value="105.91" />
+		</event>
+		<event>
+			<int key="index" value="28" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-08T09:22:34.800000" />
+			<date key="time:timestamp" value="2022-01-08T10:20:19.200000" />
+			<float key="Duration" value="57.739999999999995" />
+		</event>
+		<event>
+			<int key="index" value="31" />
+			<string key="concept:name" value="wake up" />
+			<date key="start_time" value="2022-01-08T10:26:36.600000" />
+			<date key="time:timestamp" value="2022-01-08T10:38:55.200000" />
+			<float key="Duration" value="12.31" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="7" />
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-08T22:02:22.200000" />
+			<date key="time:timestamp" value="2022-01-08T22:43:15.600000" />
+			<float key="Duration" value="40.89" />
+		</event>
+		<event>
+			<int key="index" value="3" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-08T22:51:53.400000" />
+			<date key="time:timestamp" value="2022-01-08T23:46:28.200000" />
+			<float key="Duration" value="54.58" />
+		</event>
+		<event>
+			<int key="index" value="5" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-08T23:47:39" />
+			<date key="time:timestamp" value="2022-01-09T00:10:08.400000" />
+			<float key="Duration" value="22.49" />
+		</event>
+		<event>
+			<int key="index" value="7" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-09T00:11:11.400000" />
+			<date key="time:timestamp" value="2022-01-09T06:56:36" />
+			<float key="Duration" value="405.40999999999997" />
+		</event>
+		<event>
+			<int key="index" value="15" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-09T06:57:36.600000" />
+			<date key="time:timestamp" value="2022-01-09T07:25:18.600000" />
+			<float key="Duration" value="27.7" />
+		</event>
+		<event>
+			<int key="index" value="17" />
+			<string key="concept:name" value="sleep" />
+			<date key="start_time" value="2022-01-09T07:28:33" />
+			<date key="time:timestamp" value="2022-01-09T08:53:58.200000" />
+			<float key="Duration" value="85.42" />
+		</event>
+		<event>
+			<int key="index" value="19" />
+			<string key="concept:name" value="bathroom" />
+			<date key="start_time" value="2022-01-09T09:00:59.400000" />
+			<date key="time:timestamp" value="2022-01-09T09:41:57.600000" />
+			<float key="Duration" value="40.97" />
+		</event>
+		<event>
+			<int key="index" value="22" />
+			<string key="concept:name" value="wake up" />
+			<date key="start_time" value="2022-01-09T09:46:12.600000" />
+			<date key="time:timestamp" value="2022-01-09T09:50:10.800000" />
+			<float key="Duration" value="3.97" />
+		</event>
+	</trace>
+</log>

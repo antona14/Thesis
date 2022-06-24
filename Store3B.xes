@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="1" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Enter" />
+			<date key="start_time" value="2022-01-02T22:00:00" />
+			<date key="time:timestamp" value="2022-01-02T22:00:26.400000" />
+			<float key="Duration" value="0.44" />
+		</event>
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="Pick" />
+			<date key="start_time" value="2022-01-02T22:00:26.400000" />
+			<date key="time:timestamp" value="2022-01-02T22:04:21.600000" />
+			<float key="Duration" value="3.92" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Exit" />
+			<date key="start_time" value="2022-01-02T22:04:21.600000" />
+			<date key="time:timestamp" value="2022-01-02T22:06:03" />
+			<float key="Duration" value="1.69" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Enter" />
+			<date key="start_time" value="2022-01-03T22:00:00" />
+			<date key="time:timestamp" value="2022-01-03T22:00:52.200000" />
+			<float key="Duration" value="0.87" />
+		</event>
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="Pick" />
+			<date key="start_time" value="2022-01-03T22:00:52.200000" />
+			<date key="time:timestamp" value="2022-01-03T22:04:49.800000" />
+			<float key="Duration" value="3.96" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Exit" />
+			<date key="start_time" value="2022-01-03T22:04:49.800000" />
+			<date key="time:timestamp" value="2022-01-03T22:05:50.400000" />
+			<float key="Duration" value="1.01" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Enter" />
+			<date key="start_time" value="2022-01-04T22:00:00" />
+			<date key="time:timestamp" value="2022-01-04T22:00:57.600000" />
+			<float key="Duration" value="0.96" />
+		</event>
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="Pick" />
+			<date key="start_time" value="2022-01-04T22:00:57.600000" />
+			<date key="time:timestamp" value="2022-01-04T22:05:07.800000" />
+			<float key="Duration" value="4.17" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Exit" />
+			<date key="start_time" value="2022-01-04T22:05:07.800000" />
+			<date key="time:timestamp" value="2022-01-04T22:06:31.800000" />
+			<float key="Duration" value="1.4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Enter" />
+			<date key="start_time" value="2022-01-05T22:00:00" />
+			<date key="time:timestamp" value="2022-01-05T22:00:59.400000" />
+			<float key="Duration" value="0.99" />
+		</event>
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="Pick" />
+			<date key="start_time" value="2022-01-05T22:00:59.400000" />
+			<date key="time:timestamp" value="2022-01-05T22:03:10.200000" />
+			<float key="Duration" value="2.18" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Exit" />
+			<date key="start_time" value="2022-01-05T22:03:10.200000" />
+			<date key="time:timestamp" value="2022-01-05T22:04:36" />
+			<float key="Duration" value="1.43" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Enter" />
+			<date key="start_time" value="2022-01-06T22:00:00" />
+			<date key="time:timestamp" value="2022-01-06T22:00:51" />
+			<float key="Duration" value="0.85" />
+		</event>
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="Pick" />
+			<date key="start_time" value="2022-01-06T22:00:51" />
+			<date key="time:timestamp" value="2022-01-06T22:03:52.200000" />
+			<float key="Duration" value="3.02" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Exit" />
+			<date key="start_time" value="2022-01-06T22:03:52.200000" />
+			<date key="time:timestamp" value="2022-01-06T22:05:21" />
+			<float key="Duration" value="1.48" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="6" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Enter" />
+			<date key="start_time" value="2022-01-07T22:00:00" />
+			<date key="time:timestamp" value="2022-01-07T22:00:42" />
+			<float key="Duration" value="0.7" />
+		</event>
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="Pick" />
+			<date key="start_time" value="2022-01-07T22:00:42" />
+			<date key="time:timestamp" value="2022-01-07T22:05:16.800000" />
+			<float key="Duration" value="4.58" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Exit" />
+			<date key="start_time" value="2022-01-07T22:05:16.800000" />
+			<date key="time:timestamp" value="2022-01-07T22:06:27.600000" />
+			<float key="Duration" value="1.18" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="7" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Enter" />
+			<date key="start_time" value="2022-01-08T22:00:00" />
+			<date key="time:timestamp" value="2022-01-08T22:00:33" />
+			<float key="Duration" value="0.55" />
+		</event>
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="Pick" />
+			<date key="start_time" value="2022-01-08T22:00:33" />
+			<date key="time:timestamp" value="2022-01-08T22:02:42.600000" />
+			<float key="Duration" value="2.16" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Exit" />
+			<date key="start_time" value="2022-01-08T22:02:42.600000" />
+			<date key="time:timestamp" value="2022-01-08T22:04:27" />
+			<float key="Duration" value="1.74" />
+		</event>
+	</trace>
+</log>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="1" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Enter" />
+			<date key="start_time" value="2022-01-02T22:00:00" />
+			<date key="time:timestamp" value="2022-01-02T22:00:07.200000" />
+			<float key="Duration" value="0.12" />
+			<int key="case_id" value="1" />
+		</event>
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="Pick" />
+			<date key="start_time" value="2022-01-02T22:00:07.200000" />
+			<date key="time:timestamp" value="2022-01-02T22:04:21" />
+			<float key="Duration" value="4.23" />
+			<int key="case_id" value="1" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Pay" />
+			<date key="start_time" value="2022-01-02T22:04:21" />
+			<date key="time:timestamp" value="2022-01-02T22:07:25.800000" />
+			<float key="Duration" value="3.08" />
+			<int key="case_id" value="1" />
+		</event>
+		<event>
+			<int key="index" value="3" />
+			<string key="concept:name" value="Pick" />
+			<date key="start_time" value="2022-01-02T22:07:25.800000" />
+			<date key="time:timestamp" value="2022-01-02T22:12:24" />
+			<float key="Duration" value="4.97" />
+			<int key="case_id" value="1" />
+		</event>
+		<event>
+			<int key="index" value="4" />
+			<string key="concept:name" value="Pay" />
+			<date key="start_time" value="2022-01-02T22:12:24" />
+			<date key="time:timestamp" value="2022-01-02T22:17:15.600000" />
+			<float key="Duration" value="4.86" />
+			<int key="case_id" value="1" />
+		</event>
+		<event>
+			<int key="index" value="5" />
+			<string key="concept:name" value="Exit" />
+			<date key="start_time" value="2022-01-02T22:17:15.600000" />
+			<date key="time:timestamp" value="2022-01-02T22:18:56.400000" />
+			<float key="Duration" value="1.68" />
+			<int key="case_id" value="1" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Enter" />
+			<date key="start_time" value="2022-01-03T22:00:00" />
+			<date key="time:timestamp" value="2022-01-03T22:00:43.800000" />
+			<float key="Duration" value="0.73" />
+			<int key="case_id" value="2" />
+		</event>
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="Pick" />
+			<date key="start_time" value="2022-01-03T22:00:43.800000" />
+			<date key="time:timestamp" value="2022-01-03T22:03:07.200000" />
+			<float key="Duration" value="2.39" />
+			<int key="case_id" value="2" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Pay" />
+			<date key="start_time" value="2022-01-03T22:03:07.200000" />
+			<date key="time:timestamp" value="2022-01-03T22:07:12" />
+			<float key="Duration" value="4.08" />
+			<int key="case_id" value="2" />
+		</event>
+		<event>
+			<int key="index" value="3" />
+			<string key="concept:name" value="Exit" />
+			<date key="start_time" value="2022-01-03T22:07:12" />
+			<date key="time:timestamp" value="2022-01-03T22:08:52.200000" />
+			<float key="Duration" value="1.67" />
+			<int key="case_id" value="2" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Enter" />
+			<date key="start_time" value="2022-01-04T22:00:00" />
+			<date key="time:timestamp" value="2022-01-04T22:00:04.800000" />
+			<float key="Duration" value="0.08" />
+			<int key="case_id" value="3" />
+		</event>
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="Exit" />
+			<date key="start_time" value="2022-01-04T22:00:04.800000" />
+			<date key="time:timestamp" value="2022-01-04T22:01:36" />
+			<float key="Duration" value="1.52" />
+			<int key="case_id" value="3" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Enter" />
+			<date key="start_time" value="2022-01-05T22:00:00" />
+			<date key="time:timestamp" value="2022-01-05T22:00:18" />
+			<float key="Duration" value="0.3" />
+			<int key="case_id" value="4" />
+		</event>
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="Pick" />
+			<date key="start_time" value="2022-01-05T22:00:18" />
+			<date key="time:timestamp" value="2022-01-05T22:04:01.800000" />
+			<float key="Duration" value="3.73" />
+			<int key="case_id" value="4" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Pay" />
+			<date key="start_time" value="2022-01-05T22:04:01.800000" />
+			<date key="time:timestamp" value="2022-01-05T22:12:38.400000" />
+			<float key="Duration" value="8.61" />
+			<int key="case_id" value="4" />
+		</event>
+		<event>
+			<int key="index" value="3" />
+			<string key="concept:name" value="Pick" />
+			<date key="start_time" value="2022-01-05T22:12:38.400000" />
+			<date key="time:timestamp" value="2022-01-05T22:17:07.800000" />
+			<float key="Duration" value="4.49" />
+			<int key="case_id" value="4" />
+		</event>
+		<event>
+			<int key="index" value="4" />
+			<string key="concept:name" value="Pay" />
+			<date key="start_time" value="2022-01-05T22:17:07.800000" />
+			<date key="time:timestamp" value="2022-01-05T22:25:28.200000" />
+			<float key="Duration" value="8.34" />
+			<int key="case_id" value="4" />
+		</event>
+		<event>
+			<int key="index" value="5" />
+			<string key="concept:name" value="Exit" />
+			<date key="start_time" value="2022-01-05T22:25:28.200000" />
+			<date key="time:timestamp" value="2022-01-05T22:26:33.600000" />
+			<float key="Duration" value="1.09" />
+			<int key="case_id" value="4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Enter" />
+			<date key="start_time" value="2022-01-06T22:00:00" />
+			<date key="time:timestamp" value="2022-01-06T22:00:36.600000" />
+			<float key="Duration" value="0.61" />
+			<int key="case_id" value="5" />
+		</event>
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="Pick" />
+			<date key="start_time" value="2022-01-06T22:00:36.600000" />
+			<date key="time:timestamp" value="2022-01-06T22:05:07.800000" />
+			<float key="Duration" value="4.52" />
+			<int key="case_id" value="5" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Pay" />
+			<date key="start_time" value="2022-01-06T22:05:07.800000" />
+			<date key="time:timestamp" value="2022-01-06T22:10:11.400000" />
+			<float key="Duration" value="5.06" />
+			<int key="case_id" value="5" />
+		</event>
+		<event>
+			<int key="index" value="3" />
+			<string key="concept:name" value="Exit" />
+			<date key="start_time" value="2022-01-06T22:10:11.400000" />
+			<date key="time:timestamp" value="2022-01-06T22:11:34.200000" />
+			<float key="Duration" value="1.38" />
+			<int key="case_id" value="5" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="6" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Enter" />
+			<date key="start_time" value="2022-01-07T22:00:00" />
+			<date key="time:timestamp" value="2022-01-07T22:00:40.200000" />
+			<float key="Duration" value="0.67" />
+			<int key="case_id" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="Pick" />
+			<date key="start_time" value="2022-01-07T22:00:40.200000" />
+			<date key="time:timestamp" value="2022-01-07T22:05:35.400000" />
+			<float key="Duration" value="4.92" />
+			<int key="case_id" value="6" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Pay" />
+			<date key="start_time" value="2022-01-07T22:05:35.400000" />
+			<date key="time:timestamp" value="2022-01-07T22:10:36" />
+			<float key="Duration" value="5.01" />
+			<int key="case_id" value="6" />
+		</event>
+		<event>
+			<int key="index" value="3" />
+			<string key="concept:name" value="Exit" />
+			<date key="start_time" value="2022-01-07T22:10:36" />
+			<date key="time:timestamp" value="2022-01-07T22:11:54.600000" />
+			<float key="Duration" value="1.31" />
+			<int key="case_id" value="6" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="7" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Enter" />
+			<date key="start_time" value="2022-01-08T22:00:00" />
+			<date key="time:timestamp" value="2022-01-08T22:00:30.600000" />
+			<float key="Duration" value="0.51" />
+			<int key="case_id" value="7" />
+		</event>
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="Pick" />
+			<date key="start_time" value="2022-01-08T22:00:30.600000" />
+			<date key="time:timestamp" value="2022-01-08T22:04:10.800000" />
+			<float key="Duration" value="3.67" />
+			<int key="case_id" value="7" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Pay" />
+			<date key="start_time" value="2022-01-08T22:04:10.800000" />
+			<date key="time:timestamp" value="2022-01-08T22:08:52.200000" />
+			<float key="Duration" value="4.69" />
+			<int key="case_id" value="7" />
+		</event>
+		<event>
+			<int key="index" value="3" />
+			<string key="concept:name" value="Exit" />
+			<date key="start_time" value="2022-01-08T22:08:52.200000" />
+			<date key="time:timestamp" value="2022-01-08T22:10:48.600000" />
+			<float key="Duration" value="1.94" />
+			<int key="case_id" value="7" />
+		</event>
+	</trace>
+</log>

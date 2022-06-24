@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="1" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="WakeUp" />
+			<date key="start_time" value="2022-01-02T16:00:00" />
+			<date key="time:timestamp" value="2022-01-02T16:34:46.800000" />
+			<float key="Duration" value="34.78" />
+			<int key="case_id" value="1" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="GetReady" />
+			<date key="start_time" value="2022-01-02T16:34:46.800000" />
+			<date key="time:timestamp" value="2022-01-02T17:04:11.400000" />
+			<float key="Duration" value="29.41" />
+			<int key="case_id" value="1" />
+		</event>
+		<event>
+			<int key="index" value="3" />
+			<string key="concept:name" value="Leave" />
+			<date key="start_time" value="2022-01-02T17:04:11.400000" />
+			<date key="time:timestamp" value="2022-01-02T17:10:33.600000" />
+			<float key="Duration" value="6.37" />
+			<int key="case_id" value="1" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="WakeUp" />
+			<date key="start_time" value="2022-01-03T16:00:00" />
+			<date key="time:timestamp" value="2022-01-03T16:31:36" />
+			<float key="Duration" value="31.6" />
+			<int key="case_id" value="2" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="GetReady" />
+			<date key="start_time" value="2022-01-03T16:31:36" />
+			<date key="time:timestamp" value="2022-01-03T16:53:55.200000" />
+			<float key="Duration" value="22.32" />
+			<int key="case_id" value="2" />
+		</event>
+		<event>
+			<int key="index" value="3" />
+			<string key="concept:name" value="Leave" />
+			<date key="start_time" value="2022-01-03T16:53:55.200000" />
+			<date key="time:timestamp" value="2022-01-03T16:59:15.600000" />
+			<float key="Duration" value="5.34" />
+			<int key="case_id" value="2" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="WakeUp" />
+			<date key="start_time" value="2022-01-04T16:00:00" />
+			<date key="time:timestamp" value="2022-01-04T16:25:06" />
+			<float key="Duration" value="25.1" />
+			<int key="case_id" value="3" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="GetReady" />
+			<date key="start_time" value="2022-01-04T16:25:06" />
+			<date key="time:timestamp" value="2022-01-04T16:53:25.200000" />
+			<float key="Duration" value="28.32" />
+			<int key="case_id" value="3" />
+		</event>
+		<event>
+			<int key="index" value="3" />
+			<string key="concept:name" value="Leave" />
+			<date key="start_time" value="2022-01-04T16:53:25.200000" />
+			<date key="time:timestamp" value="2022-01-04T16:59:25.200000" />
+			<float key="Duration" value="6.0" />
+			<int key="case_id" value="3" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="WakeUp" />
+			<date key="start_time" value="2022-01-05T16:00:00" />
+			<date key="time:timestamp" value="2022-01-05T16:30:07.200000" />
+			<float key="Duration" value="30.12" />
+			<int key="case_id" value="4" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="GetReady" />
+			<date key="start_time" value="2022-01-05T16:30:07.200000" />
+			<date key="time:timestamp" value="2022-01-05T16:52:21.600000" />
+			<float key="Duration" value="22.24" />
+			<int key="case_id" value="4" />
+		</event>
+		<event>
+			<int key="index" value="3" />
+			<string key="concept:name" value="Leave" />
+			<date key="start_time" value="2022-01-05T16:52:21.600000" />
+			<date key="time:timestamp" value="2022-01-05T16:59:33.600000" />
+			<float key="Duration" value="7.2" />
+			<int key="case_id" value="4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="WakeUp" />
+			<date key="start_time" value="2022-01-06T16:00:00" />
+			<date key="time:timestamp" value="2022-01-06T16:30:55.800000" />
+			<float key="Duration" value="30.93" />
+			<int key="case_id" value="5" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="GetReady" />
+			<date key="start_time" value="2022-01-06T16:30:55.800000" />
+			<date key="time:timestamp" value="2022-01-06T16:55:11.400000" />
+			<float key="Duration" value="24.26" />
+			<int key="case_id" value="5" />
+		</event>
+		<event>
+			<int key="index" value="3" />
+			<string key="concept:name" value="Leave" />
+			<date key="start_time" value="2022-01-06T16:55:11.400000" />
+			<date key="time:timestamp" value="2022-01-06T17:02:42.600000" />
+			<float key="Duration" value="7.52" />
+			<int key="case_id" value="5" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="6" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="WakeUp" />
+			<date key="start_time" value="2022-01-07T16:00:00" />
+			<date key="time:timestamp" value="2022-01-07T16:33:06" />
+			<float key="Duration" value="33.1" />
+			<int key="case_id" value="6" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="GetReady" />
+			<date key="start_time" value="2022-01-07T16:33:06" />
+			<date key="time:timestamp" value="2022-01-07T16:58:56.400000" />
+			<float key="Duration" value="25.84" />
+			<int key="case_id" value="6" />
+		</event>
+		<event>
+			<int key="index" value="3" />
+			<string key="concept:name" value="Leave" />
+			<date key="start_time" value="2022-01-07T16:58:56.400000" />
+			<date key="time:timestamp" value="2022-01-07T17:07:09.600000" />
+			<float key="Duration" value="8.22" />
+			<int key="case_id" value="6" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="7" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="WakeUp" />
+			<date key="start_time" value="2022-01-08T16:00:00" />
+			<date key="time:timestamp" value="2022-01-08T16:31:09.600000" />
+			<float key="Duration" value="31.16" />
+			<int key="case_id" value="7" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="GetReady" />
+			<date key="start_time" value="2022-01-08T16:31:09.600000" />
+			<date key="time:timestamp" value="2022-01-08T16:58:35.400000" />
+			<float key="Duration" value="27.43" />
+			<int key="case_id" value="7" />
+		</event>
+		<event>
+			<int key="index" value="3" />
+			<string key="concept:name" value="Leave" />
+			<date key="start_time" value="2022-01-08T16:58:35.400000" />
+			<date key="time:timestamp" value="2022-01-08T17:05:54.600000" />
+			<float key="Duration" value="7.32" />
+			<int key="case_id" value="7" />
+		</event>
+	</trace>
+</log>

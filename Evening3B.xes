@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="1" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="TV" />
+			<date key="start_time" value="2022-01-02T19:00:00" />
+			<date key="time:timestamp" value="2022-01-02T19:34:07.800000" />
+			<float key="Duration" value="34.13" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Sleep" />
+			<date key="start_time" value="2022-01-02T19:49:05.400000" />
+			<date key="time:timestamp" value="2022-01-02T20:13:45" />
+			<float key="Duration" value="24.66" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="TV" />
+			<date key="start_time" value="2022-01-03T19:00:00" />
+			<date key="time:timestamp" value="2022-01-03T19:46:28.200000" />
+			<float key="Duration" value="46.47" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Dinner" />
+			<date key="start_time" value="2022-01-03T19:54:40.200000" />
+			<date key="time:timestamp" value="2022-01-03T20:36:10.800000" />
+			<float key="Duration" value="41.51" />
+		</event>
+		<event>
+			<int key="index" value="4" />
+			<string key="concept:name" value="Sleep" />
+			<date key="start_time" value="2022-01-03T20:41:13.200000" />
+			<date key="time:timestamp" value="2022-01-03T20:56:27" />
+			<float key="Duration" value="15.23" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="TV" />
+			<date key="start_time" value="2022-01-04T19:00:00" />
+			<date key="time:timestamp" value="2022-01-04T19:41:40.800000" />
+			<float key="Duration" value="41.68" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Sleep" />
+			<date key="start_time" value="2022-01-04T19:49:15.600000" />
+			<date key="time:timestamp" value="2022-01-04T20:05:55.800000" />
+			<float key="Duration" value="16.67" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Sleep" />
+			<date key="start_time" value="2022-01-05T19:00:00" />
+			<date key="time:timestamp" value="2022-01-05T19:17:13.200000" />
+			<float key="Duration" value="17.22" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Sleep" />
+			<date key="start_time" value="2022-01-05T19:25:29.400000" />
+			<date key="time:timestamp" value="2022-01-05T19:39:24" />
+			<float key="Duration" value="13.91" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Sleep" />
+			<date key="start_time" value="2022-01-06T19:00:00" />
+			<date key="time:timestamp" value="2022-01-06T19:23:18" />
+			<float key="Duration" value="23.3" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Dinner" />
+			<date key="start_time" value="2022-01-06T19:38:13.200000" />
+			<date key="time:timestamp" value="2022-01-06T20:43:32.400000" />
+			<float key="Duration" value="65.32" />
+		</event>
+		<event>
+			<int key="index" value="4" />
+			<string key="concept:name" value="Read" />
+			<date key="start_time" value="2022-01-06T20:49:40.200000" />
+			<date key="time:timestamp" value="2022-01-06T21:19:42.600000" />
+			<float key="Duration" value="30.04" />
+		</event>
+		<event>
+			<int key="index" value="6" />
+			<string key="concept:name" value="Sleep" />
+			<date key="start_time" value="2022-01-06T21:32:40.200000" />
+			<date key="time:timestamp" value="2022-01-06T21:59:15.600000" />
+			<float key="Duration" value="26.59" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="6" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Read" />
+			<date key="start_time" value="2022-01-07T19:00:00" />
+			<date key="time:timestamp" value="2022-01-07T19:48:24" />
+			<float key="Duration" value="48.4" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="TV" />
+			<date key="start_time" value="2022-01-07T19:53:36.600000" />
+			<date key="time:timestamp" value="2022-01-07T20:51:01.800000" />
+			<float key="Duration" value="57.42" />
+		</event>
+		<event>
+			<int key="index" value="4" />
+			<string key="concept:name" value="Sleep" />
+			<date key="start_time" value="2022-01-07T21:05:34.200000" />
+			<date key="time:timestamp" value="2022-01-07T21:28:00" />
+			<float key="Duration" value="22.43" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="7" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Read" />
+			<date key="start_time" value="2022-01-08T19:00:00" />
+			<date key="time:timestamp" value="2022-01-08T19:54:00.600000" />
+			<float key="Duration" value="54.01" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Sleep" />
+			<date key="start_time" value="2022-01-08T20:03:49.200000" />
+			<date key="time:timestamp" value="2022-01-08T20:24:43.200000" />
+			<float key="Duration" value="20.9" />
+		</event>
+	</trace>
+</log>

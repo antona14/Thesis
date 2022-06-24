@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="1" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Dinner" />
+			<date key="start_time" value="2022-01-02T19:00:00" />
+			<date key="time:timestamp" value="2022-01-02T19:57:32.400000" />
+			<float key="Duration" value="57.54" />
+			<int key="case_id" value="1" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="TV" />
+			<date key="start_time" value="2022-01-02T20:11:19.800000" />
+			<date key="time:timestamp" value="2022-01-02T20:53:05.400000" />
+			<float key="Duration" value="41.76" />
+			<int key="case_id" value="1" />
+		</event>
+		<event>
+			<int key="index" value="5" />
+			<string key="concept:name" value="Brush teeth" />
+			<date key="start_time" value="2022-01-02T21:26:34.800000" />
+			<date key="time:timestamp" value="2022-01-02T21:37:02.400000" />
+			<float key="Duration" value="10.46" />
+			<int key="case_id" value="1" />
+		</event>
+		<event>
+			<int key="index" value="8" />
+			<string key="concept:name" value="Sleep" />
+			<date key="start_time" value="2022-01-02T22:00:19.200000" />
+			<date key="time:timestamp" value="2022-01-02T22:11:31.200000" />
+			<float key="Duration" value="11.2" />
+			<int key="case_id" value="1" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Dinner" />
+			<date key="start_time" value="2022-01-03T19:00:00" />
+			<date key="time:timestamp" value="2022-01-03T19:53:09" />
+			<float key="Duration" value="53.15" />
+			<int key="case_id" value="2" />
+		</event>
+		<event>
+			<int key="index" value="3" />
+			<string key="concept:name" value="TV" />
+			<date key="start_time" value="2022-01-03T20:27:48" />
+			<date key="time:timestamp" value="2022-01-03T21:13:28.200000" />
+			<float key="Duration" value="45.67" />
+			<int key="case_id" value="2" />
+		</event>
+		<event>
+			<int key="index" value="5" />
+			<string key="concept:name" value="Brush teeth" />
+			<date key="start_time" value="2022-01-03T21:27:06.600000" />
+			<date key="time:timestamp" value="2022-01-03T21:40:34.800000" />
+			<float key="Duration" value="13.47" />
+			<int key="case_id" value="2" />
+		</event>
+		<event>
+			<int key="index" value="9" />
+			<string key="concept:name" value="Sleep" />
+			<date key="start_time" value="2022-01-03T22:41:49.200000" />
+			<date key="time:timestamp" value="2022-01-03T23:11:39" />
+			<float key="Duration" value="29.83" />
+			<int key="case_id" value="2" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Dinner" />
+			<date key="start_time" value="2022-01-04T19:00:00" />
+			<date key="time:timestamp" value="2022-01-04T19:54:58.200000" />
+			<float key="Duration" value="54.97" />
+			<int key="case_id" value="3" />
+		</event>
+		<event>
+			<int key="index" value="4" />
+			<string key="concept:name" value="Brush teeth" />
+			<date key="start_time" value="2022-01-04T20:31:08.400000" />
+			<date key="time:timestamp" value="2022-01-04T20:49:01.200000" />
+			<float key="Duration" value="17.88" />
+			<int key="case_id" value="3" />
+		</event>
+		<event>
+			<int key="index" value="6" />
+			<string key="concept:name" value="TV" />
+			<date key="start_time" value="2022-01-04T21:18:46.200000" />
+			<date key="time:timestamp" value="2022-01-04T22:10:46.800000" />
+			<float key="Duration" value="52.01" />
+			<int key="case_id" value="3" />
+		</event>
+		<event>
+			<int key="index" value="8" />
+			<string key="concept:name" value="Sleep" />
+			<date key="start_time" value="2022-01-04T22:22:25.800000" />
+			<date key="time:timestamp" value="2022-01-04T22:42:45.600000" />
+			<float key="Duration" value="20.33" />
+			<int key="case_id" value="3" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Dinner" />
+			<date key="start_time" value="2022-01-05T19:00:00" />
+			<date key="time:timestamp" value="2022-01-05T19:54:55.800000" />
+			<float key="Duration" value="54.93" />
+			<int key="case_id" value="4" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Read" />
+			<date key="start_time" value="2022-01-05T20:02:24.600000" />
+			<date key="time:timestamp" value="2022-01-05T20:49:24.600000" />
+			<float key="Duration" value="47.0" />
+			<int key="case_id" value="4" />
+		</event>
+		<event>
+			<int key="index" value="3" />
+			<string key="concept:name" value="TV" />
+			<date key="start_time" value="2022-01-05T20:49:24.600000" />
+			<date key="time:timestamp" value="2022-01-05T21:30:37.200000" />
+			<float key="Duration" value="41.21" />
+			<int key="case_id" value="4" />
+		</event>
+		<event>
+			<int key="index" value="5" />
+			<string key="concept:name" value="Brush teeth" />
+			<date key="start_time" value="2022-01-05T21:45:00.600000" />
+			<date key="time:timestamp" value="2022-01-05T22:02:52.800000" />
+			<float key="Duration" value="17.87" />
+			<int key="case_id" value="4" />
+		</event>
+		<event>
+			<int key="index" value="8" />
+			<string key="concept:name" value="Sleep" />
+			<date key="start_time" value="2022-01-05T22:41:53.400000" />
+			<date key="time:timestamp" value="2022-01-05T23:01:13.800000" />
+			<float key="Duration" value="19.34" />
+			<int key="case_id" value="4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Dinner" />
+			<date key="start_time" value="2022-01-06T19:00:00" />
+			<date key="time:timestamp" value="2022-01-06T20:05:45.600000" />
+			<float key="Duration" value="65.76" />
+			<int key="case_id" value="5" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Read" />
+			<date key="start_time" value="2022-01-06T20:18:06" />
+			<date key="time:timestamp" value="2022-01-06T21:12:16.200000" />
+			<float key="Duration" value="54.17" />
+			<int key="case_id" value="5" />
+		</event>
+		<event>
+			<int key="index" value="4" />
+			<string key="concept:name" value="Brush teeth" />
+			<date key="start_time" value="2022-01-06T21:22:25.800000" />
+			<date key="time:timestamp" value="2022-01-06T21:41:32.400000" />
+			<float key="Duration" value="19.11" />
+			<int key="case_id" value="5" />
+		</event>
+		<event>
+			<int key="index" value="5" />
+			<string key="concept:name" value="TV" />
+			<date key="start_time" value="2022-01-06T21:41:32.400000" />
+			<date key="time:timestamp" value="2022-01-06T22:11:32.400000" />
+			<float key="Duration" value="30.0" />
+			<int key="case_id" value="5" />
+		</event>
+		<event>
+			<int key="index" value="7" />
+			<string key="concept:name" value="Sleep" />
+			<date key="start_time" value="2022-01-06T22:21:56.400000" />
+			<date key="time:timestamp" value="2022-01-06T22:32:23.400000" />
+			<float key="Duration" value="10.45" />
+			<int key="case_id" value="5" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="6" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Dinner" />
+			<date key="start_time" value="2022-01-07T19:00:00" />
+			<date key="time:timestamp" value="2022-01-07T19:43:37.800000" />
+			<float key="Duration" value="43.63" />
+			<int key="case_id" value="6" />
+		</event>
+		<event>
+			<int key="index" value="4" />
+			<string key="concept:name" value="Brush teeth" />
+			<date key="start_time" value="2022-01-07T20:23:10.200000" />
+			<date key="time:timestamp" value="2022-01-07T20:39:13.200000" />
+			<float key="Duration" value="16.05" />
+			<int key="case_id" value="6" />
+		</event>
+		<event>
+			<int key="index" value="5" />
+			<string key="concept:name" value="Read" />
+			<date key="start_time" value="2022-01-07T20:39:13.200000" />
+			<date key="time:timestamp" value="2022-01-07T22:00:55.200000" />
+			<float key="Duration" value="81.7" />
+			<int key="case_id" value="6" />
+		</event>
+		<event>
+			<int key="index" value="8" />
+			<string key="concept:name" value="Sleep" />
+			<date key="start_time" value="2022-01-07T22:12:25.800000" />
+			<date key="time:timestamp" value="2022-01-07T22:33:48.600000" />
+			<float key="Duration" value="21.38" />
+			<int key="case_id" value="6" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="7" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="Dinner" />
+			<date key="start_time" value="2022-01-08T19:00:00" />
+			<date key="time:timestamp" value="2022-01-08T19:50:03" />
+			<float key="Duration" value="50.05" />
+			<int key="case_id" value="7" />
+		</event>
+		<event>
+			<int key="index" value="2" />
+			<string key="concept:name" value="Read" />
+			<date key="start_time" value="2022-01-08T19:55:25.800000" />
+			<date key="time:timestamp" value="2022-01-08T20:37:57.600000" />
+			<float key="Duration" value="42.53" />
+			<int key="case_id" value="7" />
+		</event>
+		<event>
+			<int key="index" value="4" />
+			<string key="concept:name" value="Brush teeth" />
+			<date key="start_time" value="2022-01-08T20:45:57.600000" />
+			<date key="time:timestamp" value="2022-01-08T21:05:11.400000" />
+			<float key="Duration" value="19.23" />
+			<int key="case_id" value="7" />
+		</event>
+		<event>
+			<int key="index" value="7" />
+			<string key="concept:name" value="Sleep" />
+			<date key="start_time" value="2022-01-08T21:31:25.200000" />
+			<date key="time:timestamp" value="2022-01-08T21:56:57.600000" />
+			<float key="Duration" value="25.54" />
+			<int key="case_id" value="7" />
+		</event>
+	</trace>
+</log>
